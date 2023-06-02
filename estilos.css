@@ -1,0 +1,232 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header {
+
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    z-index: 50;
+    opacity: 0.9;
+    
+
+}
+
+.cabeza {
+
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(black, rgba(0, 0, 0, 0))
+   
+   
+
+}
+
+
+
+
+.logo {
+
+    width: 200px;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+
+}
+
+.logo:hover{
+
+    width: 210px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.logo img{
+
+    width: 100%;
+    display: block;
+  
+}
+
+
+nav {
+
+    float: right;
+    position: relative;
+    
+   
+}
+
+
+
+nav ul {
+
+    list-style: none;
+    
+    margin-right: 50px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: center;
+                                                            
+}
+
+nav ul li a {
+
+    text-decoration: none;  
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:  Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 5;
+}
+
+nav ul :hover{
+
+background: rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.3) ;
+
+
+
+
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.principal {
+
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin: auto;
+  
+}
+
+.seccion1 img {
+
+    width: 100%;
+    
+    
+}
+
+.seccion2 {
+
+width: 100%;
+height: 1000px;
+background: linear-gradient(white, black);
+
+}
+
+
+
+
+.seccion3 {
+
+
+    background: black;
+    width: 100%;
+    height: 500px;
+}
+
+.seccion1 p {
+
+
+    margin: 50px;
+}
+
+.deunsueño {
+
+
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 1112px;
+    opacity: 0.2;
+    top:0;
+    box-shadow: 0px 0px 15px 20px rgba(0, 0, 0, 1) ;
+    
+
+}
+
+.deunsueño img {
+
+    width: 20%;
+    position: relative;
+    top: 250px;
+    left: 40%;
+
+}
+
+.seccion2 img {
+
+opacity: 0.9;
+width: 10%;
+margin-top: 100px;
+margin-left: 100px;
+transition:  width 0.3s;
+z-index: 100;
+}
+
+
+
+.seccion2 img:hover{
+
+width: 30%;
+
+
+}
+
+.seccion3 img{
+
+
+position: relative;
+bottom: 700px;
+width: 10%;
+margin-left: 110px;
+transition: width 0.3s;
+z-index: 90;
+
+}
+
+.seccion3 img:hover{
+
+    width: 30%;
+}
+
+
+.whatsApp {
+    position: absolute;
+    width: 30px;
+    top: 600px;
+    left: 93%
+}
+
+.whatsApp:hover{
+
+    width: 60px;
+    left: 92%;
+}
+
+.whatsApp a img{
+
+    width: 100%;
+
+}
